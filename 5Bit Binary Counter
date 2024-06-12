@@ -1,0 +1,275 @@
+const int p1 = 8;
+const int p2 = 9;
+const int p3 = 10;
+const int p4 = 11;
+const int p5 = 12;
+const int delayT = 750;
+
+void setup() 
+{
+  pinMode(p1, OUTPUT);
+  pinMode(p2, OUTPUT);
+  pinMode(p3, OUTPUT);
+  pinMode(p4, OUTPUT);
+  pinMode(p5, OUTPUT);
+}
+
+void loop() 
+{
+  digitalWrite(p1, LOW);
+  digitalWrite(p2, LOW);
+  digitalWrite(p3, LOW);
+  digitalWrite(p4, LOW);
+  digitalWrite(p5, LOW);
+
+  delay(delayT);
+
+  digitalWrite(p1, LOW);
+  digitalWrite(p2, LOW);
+  digitalWrite(p3, LOW);
+  digitalWrite(p4, LOW);
+  digitalWrite(p5, HIGH);
+
+  delay(delayT);
+
+  digitalWrite(p1, LOW);
+  digitalWrite(p2, LOW);
+  digitalWrite(p3, LOW);
+  digitalWrite(p4, HIGH);
+  digitalWrite(p5, LOW);
+
+  delay(delayT);
+
+  digitalWrite(p1, LOW);
+  digitalWrite(p2, LOW);
+  digitalWrite(p3, LOW);
+  digitalWrite(p4, HIGH);
+  digitalWrite(p5, HIGH);
+
+  delay(delayT);
+
+  digitalWrite(p1, LOW);
+  digitalWrite(p2, LOW);
+  digitalWrite(p3, HIGH);
+  digitalWrite(p4, LOW);
+  digitalWrite(p5, LOW);
+
+  delay(delayT);
+
+  digitalWrite(p1, LOW);
+  digitalWrite(p2, LOW);
+  digitalWrite(p3, HIGH);
+  digitalWrite(p4, LOW);
+  digitalWrite(p5, HIGH);
+
+  delay(delayT);
+
+  digitalWrite(p1, LOW);
+  digitalWrite(p2, LOW);
+  digitalWrite(p3, HIGH);
+  digitalWrite(p4, HIGH);
+  digitalWrite(p5, LOW);
+
+  delay(delayT);
+
+  digitalWrite(p1, LOW);
+  digitalWrite(p2, LOW);
+  digitalWrite(p3, HIGH);
+  digitalWrite(p4, HIGH);
+  digitalWrite(p5, HIGH);
+
+  delay(delayT);
+
+  digitalWrite(p1, LOW);
+  digitalWrite(p2, HIGH);
+  digitalWrite(p3, LOW);
+  digitalWrite(p4, LOW);
+  digitalWrite(p5, LOW);
+
+  delay(delayT);
+
+  digitalWrite(p1, LOW);
+  digitalWrite(p2, HIGH);
+  digitalWrite(p3, LOW);
+  digitalWrite(p4, LOW);
+  digitalWrite(p5, HIGH);
+
+  delay(delayT);
+
+  digitalWrite(p1, LOW);
+  digitalWrite(p2, HIGH);
+  digitalWrite(p3, LOW);
+  digitalWrite(p4, HIGH);
+  digitalWrite(p5, LOW);
+
+  delay(delayT);
+
+  digitalWrite(p1, LOW);
+  digitalWrite(p2, HIGH);
+  digitalWrite(p3, LOW);
+  digitalWrite(p4, HIGH);
+  digitalWrite(p5, HIGH);
+
+  delay(delayT);
+
+  digitalWrite(p1, LOW);
+  digitalWrite(p2, HIGH);
+  digitalWrite(p3, HIGH);
+  digitalWrite(p4, LOW);
+  digitalWrite(p5, LOW);
+
+  delay(delayT);
+
+  digitalWrite(p1, LOW);
+  digitalWrite(p2, HIGH);
+  digitalWrite(p3, HIGH);
+  digitalWrite(p4, LOW);
+  digitalWrite(p5, HIGH);
+
+  delay(delayT);
+
+  digitalWrite(p1, LOW);
+  digitalWrite(p2, HIGH);
+  digitalWrite(p3, HIGH);
+  digitalWrite(p4, HIGH);
+  digitalWrite(p5, LOW);
+
+  delay(delayT);
+
+  digitalWrite(p1, LOW);
+  digitalWrite(p2, HIGH);
+  digitalWrite(p3, HIGH);
+  digitalWrite(p4, HIGH);
+  digitalWrite(p5, HIGH);
+
+  delay(delayT);
+  
+  digitalWrite(p1, HIGH);
+  digitalWrite(p2, LOW);
+  digitalWrite(p3, LOW);
+  digitalWrite(p4, LOW);
+  digitalWrite(p5, LOW);
+
+  delay(delayT);
+  
+  digitalWrite(p1, HIGH);
+  digitalWrite(p2, LOW);
+  digitalWrite(p3, LOW);
+  digitalWrite(p4, LOW);
+  digitalWrite(p5, HIGH);
+
+  delay(delayT);
+  
+  digitalWrite(p1, HIGH);
+  digitalWrite(p2, LOW);
+  digitalWrite(p3, LOW);
+  digitalWrite(p4, HIGH);
+  digitalWrite(p5, LOW);
+
+  delay(delayT);
+  
+  digitalWrite(p1, HIGH);
+  digitalWrite(p2, LOW);
+  digitalWrite(p3, LOW);
+  digitalWrite(p4, HIGH);
+  digitalWrite(p5, HIGH);
+
+  delay(delayT);
+
+  digitalWrite(p1, HIGH);
+  digitalWrite(p2, LOW);
+  digitalWrite(p3, HIGH);
+  digitalWrite(p4, LOW);
+  digitalWrite(p5, LOW);
+
+  delay(delayT);
+  
+  digitalWrite(p1, HIGH);
+  digitalWrite(p2, LOW);
+  digitalWrite(p3, HIGH);
+  digitalWrite(p4, LOW);
+  digitalWrite(p5, HIGH);
+
+  delay(delayT);
+  
+  digitalWrite(p1, HIGH);
+  digitalWrite(p2, LOW);
+  digitalWrite(p3, HIGH);
+  digitalWrite(p4, HIGH);
+  digitalWrite(p5, LOW);
+
+  delay(delayT);
+  
+  digitalWrite(p1, HIGH);
+  digitalWrite(p2, LOW);
+  digitalWrite(p3, HIGH);
+  digitalWrite(p4, HIGH);
+  digitalWrite(p5, HIGH);
+
+  delay(delayT);
+  
+  digitalWrite(p1, HIGH);
+  digitalWrite(p2, HIGH);
+  digitalWrite(p3, LOW);
+  digitalWrite(p4, LOW);
+  digitalWrite(p5, LOW);
+
+  delay(delayT);
+  
+  digitalWrite(p1, HIGH);
+  digitalWrite(p2, HIGH);
+  digitalWrite(p3, LOW);
+  digitalWrite(p4, LOW);
+  digitalWrite(p5, HIGH);
+
+  delay(delayT);
+  
+  digitalWrite(p1, HIGH);
+  digitalWrite(p2, HIGH);
+  digitalWrite(p3, LOW);
+  digitalWrite(p4, HIGH);
+  digitalWrite(p5, LOW);
+
+  delay(delayT);
+  
+  digitalWrite(p1, HIGH);
+  digitalWrite(p2, HIGH);
+  digitalWrite(p3, LOW);
+  digitalWrite(p4, HIGH);
+  digitalWrite(p5, HIGH);
+
+  delay(delayT);
+  
+  digitalWrite(p1, HIGH);
+  digitalWrite(p2, HIGH);
+  digitalWrite(p3, HIGH);
+  digitalWrite(p4, LOW);
+  digitalWrite(p5, LOW);
+
+  delay(delayT);
+  
+  digitalWrite(p1, HIGH);
+  digitalWrite(p2, HIGH);
+  digitalWrite(p3, HIGH);
+  digitalWrite(p4, LOW);
+  digitalWrite(p5, HIGH);
+
+  delay(delayT);
+  
+  digitalWrite(p1, HIGH);
+  digitalWrite(p2, HIGH);
+  digitalWrite(p3, HIGH);
+  digitalWrite(p4, HIGH);
+  digitalWrite(p5, LOW);
+
+  delay(delayT);
+  
+  digitalWrite(p1, HIGH);
+  digitalWrite(p2, HIGH);
+  digitalWrite(p3, HIGH);
+  digitalWrite(p4, HIGH);
+  digitalWrite(p5, HIGH);
+
+  delay(delayT);
+  
+}
